@@ -52,6 +52,28 @@
 		if($text=="foto" || $text =="/foto"){
 			sendFoto($chatId,"foto1.jpg",false, "la mia foto", $api)
 		}
+                
+                if($text == "Barz"){
+			$barz[0] = "un'uomo entra in un caffè, splash.";
+			$barz[1] = "qual è il colmo per un pizzaiolo? avere la fihlia di nome margherità."
+			$barz[2] = "qual è il colmo per un giardiniere? piantare la fidanzata.";
+			
+			$i = rand(0,2);
+			
+			$parameters = array('chat_id'=>$chatId,"text"=>$barz);
+			
+			
+		if($text == "data"){
+			$text = "la data odierna è: ".date("d.m.y");
+			$parameters = array('chat_id'=> $chatId, "text" => $text);
+		
+		}
+		   
+			
+		
+
+		
+			
 
 		
 		//aggiungo il comando di invio
