@@ -69,12 +69,6 @@
 		
 		}
 		   
-			
-		
-
-		
-			
-
 		
 		//aggiungo il comando di invio
 		//e lo invio
