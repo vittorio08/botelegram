@@ -61,7 +61,7 @@
 			$i = rand(0,2);
 			
 			$parameters = array('chat_id'=>$chatId,"text"=>$barz);
-			
+		}
 			
 		if($text == "data"){
 			$text = "la data odierna è: ".date("d.m.y");
@@ -69,7 +69,6 @@
 		
 		}
 		   
-		
 		//aggiungo il comando di invio
 		//e lo invio
 		
