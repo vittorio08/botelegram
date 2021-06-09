@@ -53,6 +53,7 @@
 			sendFoto($chatId,"foto1.jpg",false, "la mia foto", $api)
 		}
                 
+/*
                 if($text == "Barz"){
 			$barz[0] = "un'uomo entra in un caffè, splash.";
 			$barz[1] = "qual è il colmo per un pizzaiolo? avere la fihlia di nome margherità."
@@ -68,7 +69,7 @@
 			$parameters = array('chat_id'=> $chatId, "text" => $text);
 		
 		}
-		   
+		  */ 
 		//aggiungo il comando di invio
 		//e lo invio
 		
